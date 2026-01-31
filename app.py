@@ -15,6 +15,71 @@ st.set_page_config(page_title="Iris ML App", layout="centered")
 st.title("🌸 Iris Flower Classification App")
 st.write("App started successfully ✅")
 
+
+st.markdown("""
+## 📌 Project Overview
+
+This project demonstrates a **complete Machine Learning classification pipeline**
+using the **Iris Flower Dataset**.
+
+### 🔹 Objectives
+- To understand and implement **supervised classification algorithms**
+- To compare multiple ML models based on **performance metrics**
+- To visualize results using **charts and confusion matrices**
+- To deploy the trained models using **Streamlit**
+
+---
+
+### 📊 Dataset Used
+- **Iris Dataset**
+- Features:
+  - Sepal Length
+  - Sepal Width
+  - Petal Length
+  - Petal Width
+- Target Variable:
+  - Iris Species (Setosa, Versicolor, Virginica)
+
+---
+
+### ⚙️ Data Preprocessing
+- Loaded dataset using **Pandas**
+- Converted categorical target labels using **Label Encoding**
+- Split data into **training and testing sets (50:50)**
+
+---
+
+### 🤖 Machine Learning Models Implemented
+- **Logistic Regression**
+- **K-Nearest Neighbors (KNN)**
+- **Naive Bayes (Gaussian)**
+
+Each model was trained on the training dataset and evaluated on unseen test data.
+
+---
+
+### 📈 Model Evaluation
+- Accuracy Score
+- Confusion Matrix for each model
+- Visual comparison of model performance using bar charts
+
+---
+
+### 🛠 Tools & Libraries
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib
+- Streamlit
+
+---
+
+### 🚀 Deployment
+- Converted Jupyter Notebook logic into a **Streamlit web application**
+- Deployed using **Streamlit Cloud**
+- Version-controlled using **Git & GitHub**
+""")
+
 # ---------------- LOAD DATA ----------------
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 csv_path = os.path.join(BASE_DIR, "Iris.csv")
