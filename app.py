@@ -9,7 +9,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-df = pd.read_csv("iris.csv")
+df = pd.read_csv("Iris.csv")
 df.head()
 
 le = LabelEncoder()
