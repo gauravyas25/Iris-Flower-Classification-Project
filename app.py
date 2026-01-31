@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+
 from sklearn.metrics import precision_score, accuracy_score, f1_score, recall_score, confusion_matrix, classification_report, ConfusionMatrixDisplay
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.linear_model import LogisticRegression
